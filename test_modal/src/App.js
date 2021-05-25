@@ -23,29 +23,30 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1>Modal</h1>
+        <h2>Animated Modal with Header and Footer</h2>
         <button className="myBtn" onClick={this.handleViewModal}>
           Open Modal
         </button>
         <div className="modal" onClick={this.handleWindowCloseModal}>
           <div className="modal-content">
-            <span className="close" onClick={this.handleCloseModal}>
-              &times;
-            </span>
-            <p>Some text in the modal..</p>
+            <div className="modal-header">
+              <span className="close" onClick={this.handleCloseModal}>
+                &times;
+              </span>
+              <h2>Modal Header</h2>
+            </div>
+            <div className="modal-body">
+              <p>Some text in the Modal Body</p>
+              <p>Some other text...</p>
+            </div>
+            <div className="modal-footer">
+              <h3>Modal Footer</h3>
+            </div>
           </div>
         </div>
       </div>
     );
   }
 }
-
-// <button id="myBtn">Open Modal</button>
-// <div id="myModal" class="modal">
-//   <div class="modal-content">
-//     <span class="close">&times;</span>
-//     <p>Some text in the Modal..</p>
-//   </div>
-// </div>
 
 export default App;
