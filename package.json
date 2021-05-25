@@ -1,0 +1,20 @@
+{
+  "name": "test_modal",
+  "version": "1.0.0",
+  "description": "test_modal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jswj30/test_modal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jswj30/test_modal/issues"
+  },
+  "homepage": "https://github.com/jswj30/test_modal#readme"
+}
